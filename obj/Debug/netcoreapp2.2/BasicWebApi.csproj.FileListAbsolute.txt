@@ -1,0 +1,14 @@
+/home/ahmad/Documents/net/BasicWebApi/bin/Debug/netcoreapp2.2/BasicWebApi.deps.json
+/home/ahmad/Documents/net/BasicWebApi/bin/Debug/netcoreapp2.2/BasicWebApi.runtimeconfig.json
+/home/ahmad/Documents/net/BasicWebApi/bin/Debug/netcoreapp2.2/BasicWebApi.runtimeconfig.dev.json
+/home/ahmad/Documents/net/BasicWebApi/bin/Debug/netcoreapp2.2/BasicWebApi.dll
+/home/ahmad/Documents/net/BasicWebApi/bin/Debug/netcoreapp2.2/BasicWebApi.pdb
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.csprojAssemblyReference.cache
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.csproj.CoreCompileInputs.cache
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.RazorAssemblyInfo.cache
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.RazorAssemblyInfo.cs
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.AssemblyInfoInputs.cache
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.AssemblyInfo.cs
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.RazorTargetAssemblyInfo.cache
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.dll
+/home/ahmad/Documents/net/BasicWebApi/obj/Debug/netcoreapp2.2/BasicWebApi.pdb

@@ -1,0 +1,50 @@
+[2019-07-17 19:57:34.459] [exthost] [info] extension host started
+[2019-07-17 19:57:34.587] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:34.587] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-17 19:57:34.628] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:34.630] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-17 19:57:34.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:34.779] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-17 19:57:35.007] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:35.007] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-17 19:57:35.019] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:35.019] [exthost] [info] ExtensionService#loadCommonJSModule /home/ahmad/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-17 19:57:35.115] [exthost] [info] eager extensions activated
+[2019-07-17 19:57:50.851] [exthost] [info] extension host started
+[2019-07-17 19:57:51.027] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:51.027] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-17 19:57:51.046] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:51.047] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-17 19:57:51.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:51.164] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-17 19:57:51.569] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:51.569] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-17 19:57:51.599] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-17 19:57:51.603] [exthost] [info] ExtensionService#loadCommonJSModule /home/ahmad/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-17 19:57:52.828] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.csharp {"startup":true,"activationEvent":"workspaceContains:*.csproj,*.sln,*.csx,*.cake,**/*.csproj,**/*.sln,**/*.csx,**/*.cake"}
+[2019-07-17 19:57:52.828] [exthost] [info] ExtensionService#loadCommonJSModule /home/ahmad/.vscode/extensions/ms-vscode.csharp-1.20.0/dist/extension
+[2019-07-17 19:57:53.412] [exthost] [info] eager extensions activated
+[2019-07-17 20:14:43.215] [exthost] [error] [ms-vscode.csharp] provider FAILED
+[2019-07-17 20:14:43.215] [exthost] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Pending request cancelled: /v2/getcodeactions
+[2019-07-17 20:19:52.331] [exthost] [error] [ms-vscode.csharp] provider FAILED
+[2019-07-17 20:19:52.331] [exthost] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Pending request cancelled: /v2/getcodeactions
+[2019-07-17 20:28:51.339] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.references-view {"startup":false,"activationEvent":"onCommand:editor.action.showReferences"}
+[2019-07-17 20:28:51.339] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.references-view/dist/extension
+[2019-07-17 21:56:14.374] [exthost] [error] [ms-vscode.csharp] provider FAILED
+[2019-07-17 21:56:14.374] [exthost] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Pending request cancelled: /v2/getcodeactions
+[2019-07-17 22:20:26.548] [exthost] [info] extension host started
+[2019-07-17 22:20:26.584] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-17 22:20:26.584] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-17 22:20:26.711] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-17 22:20:26.711] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-17 22:20:27.099] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-17 22:20:27.099] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-17 22:20:27.667] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-17 22:20:27.667] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-17 22:20:27.938] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-17 22:20:27.938] [exthost] [info] ExtensionService#loadCommonJSModule /home/ahmad/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-17 22:20:29.696] [exthost] [info] eager extensions activated
+[2019-07-17 22:33:05.582] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-17 22:33:05.582] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-07-17 22:36:43.749] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-07-17 22:36:43.749] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension

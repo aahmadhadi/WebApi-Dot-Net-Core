@@ -1,0 +1,87 @@
+Starting OmniSharp server at 7/17/2019, 7:57:53 PM
+    Target: /home/ahmad/Documents/net/BasicWebApi
+
+OmniSharp server started.
+    Path: /home/ahmad/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/run
+    PID: 12478
+
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on linuxmint 19.1 (x64)
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to dotnet
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 1 MSBuild instance(s)
+            1: StandAlone 15.0 - "/home/ahmad/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin"
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        MSBUILD_EXE_PATH environment variable set to '/home/ahmad/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin/MSBuild.dll'
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: StandAlone 15.0 - "/home/ahmad/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin"
+            MSBuildExtensionsPath = /home/ahmad/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild
+            BypassFrameworkInstallChecks = true
+            CscToolPath = /home/ahmad/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin/Roslyn
+            CscToolExe = csc.exe
+            MSBuildToolsPath = /home/ahmad/.vscode/extensions/ms-vscode.csharp-1.20.0/.omnisharp/1.32.20/omnisharp/.msbuild/Current/Bin
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in '/home/ahmad/Documents/net/BasicWebApi'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Could not find any Cake files
+[info]: OmniSharp.WorkspaceInitializer
+        Project system 'OmniSharp.DotNet.DotNetProjectSystem' is disabled in the configuration.
+[info]: OmniSharp.MSBuild.ProjectSystem
+        No solution files found in '/home/ahmad/Documents/net/BasicWebApi'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in '/home/ahmad/Documents/net/BasicWebApi'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Could not find any CSX files
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpWorkspaceOptionsProvider
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location '/home/ahmad/Documents/net/BasicWebApi' on host 12395.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: BasicWebApi
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: BasicWebApi
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/ahmad/Documents/net/BasicWebApi/BasicWebApi.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: BasicWebApi
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.CachingCodeFixProviderForProjects
+        Skipping code fix provider 'Microsoft.CodeAnalysis.Analyzers.MetaAnalyzers.CodeFixes.ApplyDiagnosticAnalyzerAttributeFix' because it's language doesn't match 'C#'.
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: Replace 'Get' with methods
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: Use expression body for methods
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: Introduce local -> Introduce local for 'dataSource'
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: Introduce local -> Introduce local for all occurrences of 'dataSource'
+[info]: OmniSharp.Roslyn.CSharp.Services.Refactoring.V2.RunCodeActionService
+        Applying code action: Extract Method

@@ -1,0 +1,77 @@
+[2019-07-17 20:00:45.746] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/ahmad/Documents/net/BasicWebApi/.vscode'
+[2019-07-17 20:00:45.747] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/ahmad/Documents/net/BasicWebApi/.vscode'
+[2019-07-17 20:13:01.979] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:76:344)
+[2019-07-17 20:14:41.061] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:76:344)
+[2019-07-17 20:14:43.164] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:76:344)
+[2019-07-17 20:14:43.229] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-07-17 20:15:16.588] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:76:344)
+[2019-07-17 20:19:52.362] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-07-17 20:22:59.844] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:76:344)
+[2019-07-17 20:23:09.604] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:76:344)
+[2019-07-17 20:24:46.984] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:76:344)
+[2019-07-17 21:56:14.407] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-07-17 22:20:35.381] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/ahmad/Documents/Naumi/.vscode'
+[2019-07-17 22:20:35.382] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/ahmad/Documents/Naumi/.vscode'
