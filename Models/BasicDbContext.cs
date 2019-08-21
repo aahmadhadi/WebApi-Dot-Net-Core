@@ -10,5 +10,6 @@ namespace BasicWebApi.Models
         {
         }
         public DbSet<Book> Books {get; set;}
+        public DbSet<Movie> Movies {get; set;}
     }
 }

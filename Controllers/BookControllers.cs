@@ -25,21 +25,18 @@ namespace BasicWebApi.Controllers
             {
                 this.dbContext.Books.Add(new Book
                 {
-                    Id = 1,
                     Date = DateTime.UtcNow,
-                    Title = "HarryPotter"
+                    Title = "HarryPotter 1"
                 });
                 this.dbContext.Books.Add(new Book
                 {
-                    Id = 2,
                     Date = DateTime.UtcNow,
-                    Title = "HarryPotter"
+                    Title = "HarryPotter 2"
                 });
                 this.dbContext.Books.Add(new Book
                 {
-                    Id = 3,
                     Date = DateTime.UtcNow,
-                    Title = "HarryPotter"
+                    Title = "HarryPotter 3"
                 });
                 this.dbContext.SaveChanges();
             }
@@ -48,20 +45,19 @@ namespace BasicWebApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<BookView>>> Get([FromQuery]GetBookParam param)
         {
-            var dataSource = await dbContext.Books
+            var dataSource = dbContext.Books
                 .Select(book => new BookView 
                 {
                     Title = book.Title,
                     Date = book.Date
-                })
-                .ToListAsync();
+                });
             if(string.IsNullOrWhiteSpace(param.Title))
             {
-                return dataSource;
+                return await dataSource.ToListAsync();
             }
-            return dataSource
+            return await dataSource
                 .Where(item => item.Title.Contains(param.Title, StringComparison.OrdinalIgnoreCase))
-                .ToList();
+                .ToListAsync();
         }
 
         [HttpGet("{id}")]
@@ -84,10 +80,10 @@ namespace BasicWebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<IEnumerable<BookView>>> Post([FromBody]BookView param)
         {
-            var newId = await dbContext.Books.CountAsync() + 1;
-            dbContext.Add(new Book {Id = newId, Title = param.Title, Date = param.Date });
+            var newBook = new Book { Title = param.Title, Date = param.Date };
+            dbContext.Add(newBook);
             await this.dbContext.SaveChangesAsync();
-            return CreatedAtAction(nameof(Get), new { id = newId }, param);
+            return CreatedAtAction(nameof(Get), new { id = newBook.Id }, param);
         }
 
         [HttpPut("{id}")]

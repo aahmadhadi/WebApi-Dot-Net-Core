@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -27,7 +28,17 @@ namespace BasicWebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<BasicDbContext>(opt => opt.UseInMemoryDatabase("Basic"));
+            //services.AddDbContext<BasicDbContext>(opt => opt.UseInMemoryDatabase("Basic"));
+            services
+                .AddEntityFrameworkNpgsql()
+                .AddDbContext<BasicDbContext>(
+                    opt => opt
+                        .UseNpgsql(Configuration["ConnectionString:Core"])
+                        .ConfigureWarnings(warning =>
+                        {
+                            warning.Throw(RelationalEventId.QueryClientEvaluationWarning);
+                        })
+                );
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
