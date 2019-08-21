@@ -56,7 +56,7 @@ namespace BasicWebApi.Controllers
                 return await dataSource.ToListAsync();
             }
             return await dataSource
-                .Where(item => item.Title.Contains(param.Title, StringComparison.OrdinalIgnoreCase))
+                .Where(item => item.Title.ToLower().Contains(param.Title.ToLower()))
                 .ToListAsync();
         }
 
