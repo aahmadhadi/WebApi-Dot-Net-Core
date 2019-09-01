@@ -9,6 +9,7 @@ using BasicWebApi.Models.Entity;
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BasicWebApi.Controllers
 {
@@ -21,7 +22,7 @@ namespace BasicWebApi.Controllers
         public BookController(BasicDbContext dbContext)
         {
             this.dbContext = dbContext;
-            if(this.dbContext.Books.Count() == 0)
+            if (this.dbContext.Books.Count() == 0)
             {
                 this.dbContext.Books.Add(new Book
                 {
@@ -46,12 +47,12 @@ namespace BasicWebApi.Controllers
         public async Task<ActionResult<IEnumerable<BookView>>> Get([FromQuery]GetBookParam param)
         {
             var dataSource = dbContext.Books
-                .Select(book => new BookView 
+                .Select(book => new BookView
                 {
                     Title = book.Title,
                     Date = book.Date
                 });
-            if(string.IsNullOrWhiteSpace(param.Title))
+            if (string.IsNullOrWhiteSpace(param.Title))
             {
                 return await dataSource.ToListAsync();
             }
@@ -65,12 +66,13 @@ namespace BasicWebApi.Controllers
         {
             var selectedBook = await dbContext.Books
                 .Where(book => book.Id == id)
-                .Select(book => new BookView{
+                .Select(book => new BookView
+                {
                     Date = book.Date,
                     Title = book.Title
                 })
                 .SingleOrDefaultAsync();
-            if(selectedBook == null)
+            if (selectedBook == null)
             {
                 return StatusCode(StatusCodes.Status404NotFound);
             }
@@ -78,6 +80,7 @@ namespace BasicWebApi.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<BookView>>> Post([FromBody]BookView param)
         {
             var newBook = new Book { Title = param.Title, Date = param.Date };
@@ -87,7 +90,8 @@ namespace BasicWebApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<IEnumerable<BookView>>> Put([FromRoute]int id,[FromBody]BookView param)
+        [Authorize]
+        public async Task<ActionResult<IEnumerable<BookView>>> Put([FromRoute]int id, [FromBody]BookView param)
         {
             var selectedBook = await dbContext.Books.SingleOrDefaultAsync(item => item.Id == id);
             if (selectedBook == null)
@@ -101,6 +105,7 @@ namespace BasicWebApi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<BookView>>> Delete([FromRoute]int id)
         {
             var selectedBook = await dbContext.Books.SingleOrDefaultAsync(item => item.Id == id);
